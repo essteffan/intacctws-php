@@ -156,6 +156,7 @@ class api_session
         $this->companyId = $companyId;
         $this->userId = $userId;
         $this->senderId = $senderId;
+        $this->entityId = $entityId;
         $this->senderPassword = $senderPassword;
     }
 
@@ -193,6 +194,7 @@ class api_session
         $this->companyId = $companyId;
         $this->userId = $userId;
         $this->senderId = $senderId;
+        $this->entityId = $entityId;
         $this->senderPassword = $senderPassword;
     }
 
